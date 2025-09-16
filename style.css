@@ -11,6 +11,11 @@
 .heading{
     color: var(--orange-color)
 }
+.heading:hover{
+    background-color: #e8f7fb;
+    color: black;
+    cursor: pointer;
+}
 
 .head{
     color: var(--light-blue);
@@ -41,4 +46,20 @@
     display: block;
     background-color: chartreuse;
     color: red;
+}
+a{
+    text-decoration: none;
+}
+/*unvisited */
+a:link{
+    color: aqua;
+}
+a:visited{
+    color: chartreuse;
+}
+a:hover{
+    color: darkorange;
+}
+a:active{
+    color: yellow;
 }
