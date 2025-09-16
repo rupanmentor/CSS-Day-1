@@ -26,3 +26,19 @@
 #fourth{
   color:deeppink
 }
+.inline{
+    text-align: center;
+    display: inline;
+    background-color: chartreuse;
+    color: red;
+}
+#fifth{
+  color:deeppink
+}
+
+.block{
+ text-align: center;
+    display: block;
+    background-color: chartreuse;
+    color: red;
+}
